@@ -24,7 +24,6 @@
     top: 200px;   
     filter: brightness(50%);
 }
-
 .username {
     display: flex;
     flex-direction: column;
@@ -90,13 +89,45 @@ body, html {
     top: 25%;
     right: 10%;
 }
+.Project3 {
+    object-position: 10px 50px;
+    border: 15px solid rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    z-index: 2;
+    top: 85%;
+    right: 55%;
+}
+.Project4 {
+    object-position: 10px 50px;
+    border: 15px solid rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    z-index: 2;
+    top: 85%;
+    right: 10%;
+}
+
+.Projects {
+    border: 15px solid rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    z-index: 2;
+}
+
 .bg {
     /* The image used */
     background-image: url(Images/costume5.png);
     
     z-index: 0;
     /* Full height */
-    height: 100vh;
+    height: 150vh;
   
     /* Center and scale the image nicely */
     image-rendering: optimizeSpeed;
