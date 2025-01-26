@@ -3,15 +3,115 @@
     padding: 0;
 }
 
-.main {
+.MainTitle {
+    text-align: center;
+    font-size: 100px;
+}
+
+/*.main {
     width: 100%;
     background: linear-gradient(to top, rgba(0,0,0,0.5)50%, url(Images/101Background.png));
-}
+}*/
 .images {
     width: 640px;
     top: 200px;   
+    transition: 0.6s;
+    filter: brightness(100%);
 }
+
+.imageslocked {
+    width: 640px;
+    top: 200px;   
+    filter: brightness(50%);
+}
+
 .username {
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
     font-weight: bold;
     bottom: 20px;
+    font-size: x-large;
+    color: blue;
+}
+
+body, html {
+    height: 100%;
+}
+
+.Content {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+}
+.Content:hover {
+    opacity: 1;
+    color:#ffe100;
+    margin-bottom: 15px;
+}
+.images:hover {
+    filter: brightness(200%);
+}
+
+.AYSTITLE {
+    font-size: xx-large;
+    font-weight: bold;
+    color: black;
+}
+
+.Project1 {
+    object-position: 10px 50px;
+    border: 15px solid rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    z-index: 2;
+    top: 25%;
+    right: 55%;
+}
+.Project2 {
+    object-position: 10px 50px;
+    border: 15px solid rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    z-index: 2;
+    top: 25%;
+    right: 10%;
+}
+.bg {
+    /* The image used */
+    background-image: url(Images/costume5.png);
+    
+    z-index: 0;
+    /* Full height */
+    height: 100vh;
+  
+    /* Center and scale the image nicely */
+    image-rendering: optimizeSpeed;
+    image-rendering: pixelated;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: 160px;
+  
+
+    animation: animate-bg 300s infinite linear;
+  }
+
+@keyframes animate-bg {
+    100% {
+        background-position:1500000px 1400000px;
+    }
 }
