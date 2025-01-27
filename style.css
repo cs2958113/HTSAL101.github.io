@@ -139,6 +139,32 @@ div[id*="locked"]:hover {
     color: black;
 }
 
+.bg {
+    /* The image used */
+    background-image: url(Images/costume5.png);
+    
+    z-index: 0;
+    /* Full height */
+    height: 245vh;
+  
+    /* Center and scale the image nicely */
+    image-rendering: optimizeSpeed;
+    image-rendering: pixelated;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: 160px;
+  
+
+    animation: animate-bg 300s infinite linear;
+  }
+
+@keyframes animate-bg {
+    100% {
+        background-position:1500000px 1400000px;
+    }
+}
+
 .Project1 {
     object-position: 10px 50px;
     border: 15px solid rgb(255, 255, 255);
@@ -226,30 +252,4 @@ div[id*="locked"]:hover {
     z-index: 2;
     top: 205%;
     right: 10%;
-}
-
-.bg {
-    /* The image used */
-    background-image: url(Images/costume5.png);
-    
-    z-index: 0;
-    /* Full height */
-    height: 245vh;
-  
-    /* Center and scale the image nicely */
-    image-rendering: optimizeSpeed;
-    image-rendering: pixelated;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: repeat;
-    background-size: 160px;
-  
-
-    animation: animate-bg 300s infinite linear;
-  }
-
-@keyframes animate-bg {
-    100% {
-        background-position:1500000px 1400000px;
-    }
 }
