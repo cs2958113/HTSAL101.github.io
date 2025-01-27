@@ -39,7 +39,7 @@
 .imageslocked {
     width: 100%;
     top: 200px;   
-    filter: brightness(50%);
+    
 }
 .username {
     display: flex;
@@ -79,11 +79,12 @@ body, html {
     transform: scale(1);
     transform-origin: center;
     .Content {
-        transform: scale(1);     
+        transform: scale(1); 
+        transform-origin: center;    
         width: 100%;
         height: 100%;
-        top: 0;
-        left: 0;
+        top: 0px;
+        left: 0px;
         position: absolute;
         background: rgba(0, 0, 0, 0.6);
         display: flex;
@@ -106,6 +107,11 @@ body, html {
         margin-bottom: 15px;
     }
 }
+
+div[id*="locked"] {
+    filter: brightness(40%);
+}
+
 
 
 .images:hover {
