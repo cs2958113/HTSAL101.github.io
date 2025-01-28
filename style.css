@@ -11,7 +11,7 @@
 .MainTitle {
     font-family: "saster";
     text-align: center;
-    font-size: 100px;
+    font-size: calc(3vw + 3vh);
 }
 .LinkBlack {
     color: blue;
@@ -23,9 +23,11 @@
 }
 .extra {
     text-align: center;
+    font-size: calc(1.1vw + 1.1vh);
 }
 
 .images {
+    height: 38.5vh;
     width: 100%;
     /*width: 640px;*/
     top: 200px;   
@@ -37,6 +39,7 @@
 }
 
 .imageslocked {
+    height: 38.5vh;
     width: 100%;
     top: 200px;   
     
@@ -47,7 +50,7 @@
     background-color: antiquewhite;
     font-weight: bold;
     bottom: 20px;
-    font-size: x-large;
+    font-size: calc(0.8vw + 1vh);
     color: blue;
     transition: 0.4s;
 }
@@ -74,7 +77,8 @@ body, html {
     transition: 0.6s;
 }*/
 .Projects div{
-    width: 33.7%;
+    width: 33.7vw;
+    height: 48vh;
     transition: 0.6s;
     transform: scale(1);
     transform-origin: center;
@@ -134,7 +138,7 @@ div[id*="locked"]:hover {
 
 .AYSTITLE {
     font-family: "Font2";
-    font-size: xx-large;
+    font-size: calc(1.5vw + 1.5vh);
     font-weight: bold;
     color: black;
 }
@@ -173,8 +177,8 @@ div[id*="locked"]:hover {
     background-color: rgb(255, 255, 255);
     position: absolute;
     z-index: 2;
-    top: 25%;
-    right: 55%;
+    top: 25vh;
+    right: 55vw;
 }
 .Project2 {
     object-position: 10px 50px;
@@ -184,8 +188,8 @@ div[id*="locked"]:hover {
     background-color: rgb(255, 255, 255);
     position: absolute;
     z-index: 2;
-    top: 25%;
-    right: 10%;
+    top: 25vh;
+    right: 10vw;
 }
 .Project3 {
     object-position: 10px 50px;
@@ -195,8 +199,8 @@ div[id*="locked"]:hover {
     background-color: rgb(255, 255, 255);
     position: absolute;
     z-index: 2;
-    top: 85%;
-    right: 55%;
+    top: 85vh;
+    right: 55vw;
 }
 .Project4 {
     object-position: 10px 50px;
@@ -206,8 +210,8 @@ div[id*="locked"]:hover {
     background-color: rgb(255, 255, 255);
     position: absolute;
     z-index: 2;
-    top: 85%;
-    right: 10%;
+    top: 85vh;
+    right: 10vw;
 }
 .Project5 {
     object-position: 10px 50px;
@@ -217,8 +221,8 @@ div[id*="locked"]:hover {
     background-color: rgb(255, 255, 255);
     position: absolute;
     z-index: 2;
-    top: 145%;
-    right: 55%;
+    top: 145vh;
+    right: 55vw;
 }
 .Project6 {
     object-position: 10px 50px;
@@ -228,8 +232,8 @@ div[id*="locked"]:hover {
     background-color: rgb(255, 255, 255);
     position: absolute;
     z-index: 2;
-    top: 145%;
-    right: 10%;
+    top: 145vh;
+    right: 10vw;
 }
 .Project7 {
     object-position: 10px 50px;
@@ -239,8 +243,8 @@ div[id*="locked"]:hover {
     background-color: rgb(255, 255, 255);
     position: absolute;
     z-index: 2;
-    top: 205%;
-    right: 55%;
+    top: 205vh;
+    right: 55vw;
 }
 .Project8 {
     object-position: 10px 50px;
@@ -250,6 +254,6 @@ div[id*="locked"]:hover {
     background-color: rgb(255, 255, 255);
     position: absolute;
     z-index: 2;
-    top: 205%;
-    right: 10%;
+    top: 205vh;
+    right: 10vw;
 }
