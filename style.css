@@ -150,7 +150,7 @@ div[id*="locked"]:hover {
     
     z-index: 0;
     /* Full height */
-    height: 245vh;
+    height: 305vh;
   
     /* Center and scale the image nicely */
     image-rendering: optimizeSpeed;
@@ -257,4 +257,15 @@ div[id*="locked"]:hover {
     z-index: 2;
     top: 205vh;
     right: 10vw;
+}
+.Project9 {
+    object-position: 10px 50px;
+    border: 15px solid rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    z-index: 2;
+    top: 265vh;
+    right: 32.5vw;
 }
