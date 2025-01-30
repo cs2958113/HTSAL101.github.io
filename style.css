@@ -150,7 +150,7 @@ div[id*="locked"]:hover {
     
     z-index: 0;
     /* Full height */
-    height: 305vh;
+    height: 310vh;
   
     /* Center and scale the image nicely */
     image-rendering: optimizeSpeed;
